@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Brain SYSTEM "brain.txt">
+<Brain>
+	<Parts>
+		<Part name="Brain" index="0" />
+		<Part name="Left Hemisphere" index="1" />
+		<Part name="Right Hemisphere" index="2" />
+		<Part name="White Matter" index="3" />
+		<Part name="Laterial Ventricle" index="4" />
+		<Part name="Caudatate" index="5" />
+		<Part name="Fornix" index="6" />
+		<Part name="Putamen" index="7" />
+		<Part name="Thalamus" index="8" />
+		<Part name="Pedunculis" index="9" />
+		<Part name="Nucleus Accumbens" index="10" />
+		<Part name="Globus Pallidus" index="11" />
+		<Part name="3rd Ventricle" index="12" />
+		<Part name="Hypothalamus" index="13" />
+		<Part name="Optical Nerves" index="14" />
+		<Part name="Olfactory Nerves" index="15" />
+		<Part name="Medulla" index="16" />
+		<Part name="Amygdala" index="17" />
+		<Part name="Hippocampusgroup" index="18" />
+		<Part name="Cerebellum" index="19" />
+		<Part name="4th ventricle" index="20" />
+	</Parts>
+	<Transitions>
+		<Transition from="0" input="+" to="1" />
+		<Transition from="0" input="-" to="0" />
+		<Transition from="1" input="+" to="2" />
+		<Transition from="1" input="-" to="0" />
+		<Transition from="2" input="+" to="3" />
+		<Transition from="2" input="-" to="1" />
+		<Transition from="3" input="+" to="4" />
+		<Transition from="3" input="-" to="2" />
+		<Transition from="4" input="+" to="5" />
+		<Transition from="4" input="-" to="3" />
+		<Transition from="5" input="+" to="6" />
+		<Transition from="5" input="-" to="4" />
+		<Transition from="6" input="+" to="7" />
+		<Transition from="6" input="-" to="5" />
+		<Transition from="7" input="+" to="8" />
+		<Transition from="7" input="-" to="6" />
+		<Transition from="8" input="+" to="9" />
+		<Transition from="8" input="-" to="7" />
+		<Transition from="9" input="+" to="10" />
+		<Transition from="9" input="-" to="8" />
+		<Transition from="10" input="+" to="11" />
+		<Transition from="10" input="-" to="9" />
+		<Transition from="11" input="+" to="12" />
+		<Transition from="11" input="-" to="10" />
+		<Transition from="12" input="+" to="13" />
+		<Transition from="12" input="-" to="10" />
+		<Transition from="13" input="+" to="14" />
+		<Transition from="13" input="-" to="12" />
+		<Transition from="14" input="+" to="15" />
+		<Transition from="14" input="-" to="13" />
+		<Transition from="15" input="+" to="16" />
+		<Transition from="15" input="-" to="14" />
+		<Transition from="16" input="+" to="17" />
+		<Transition from="16" input="-" to="15" />
+		<Transition from="17" input="+" to="18" />
+		<Transition from="17" input="-" to="16" />
+		<Transition from="18" input="+" to="19" />
+		<Transition from="18" input="-" to="17" />
+		<Transition from="19" input="+" to="20" />
+		<Transition from="19" input="-" to="18" />
+		<Transition from="20" input="+" to="0" />
+		<Transition from="20" input="-" to="19" />
+		<FinalState index="0" />
+	</Transitions>
+</Brain>

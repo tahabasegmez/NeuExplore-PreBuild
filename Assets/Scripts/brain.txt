@@ -1,0 +1,15 @@
+<!ELEMENT Brain (Parts, Transitions)>
+<!ELEMENT Parts (Part+)>
+<!ELEMENT Part EMPTY>
+<!ATTLIST Part
+    name CDATA #REQUIRED
+    index CDATA #REQUIRED>
+<!ELEMENT Transitions (Transition+, FinalState)>
+<!ELEMENT Transition EMPTY>
+<!ATTLIST Transition
+    from CDATA #REQUIRED
+    input CDATA #REQUIRED
+    to CDATA #REQUIRED>
+<!ELEMENT FinalState EMPTY>
+<!ATTLIST FinalState
+    index CDATA #REQUIRED>
